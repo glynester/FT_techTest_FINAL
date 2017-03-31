@@ -2,8 +2,8 @@
 
 ## INSTRUCTIONS 
 Go to:
-[http://fintimesrfuntimes.herokuapp.com/]
-Note: you must not use https or the api will not work.
+http://fintimesrfuntimes.herokuapp.com/  
+Note: you must not use https or the api will not work.  
 
 ## DESCRIPTION
 This application returns a list of FT headlines by querying the FT Developers API.
