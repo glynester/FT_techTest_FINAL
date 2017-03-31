@@ -10,14 +10,14 @@ This application returns a list of FT headlines by querying the FT Developers AP
 
 A user can make a search for a particular search topic.
 
-The search can also be narrowed by the type of "curation" the user would like to see, e.g. "articles" or "blogposts". If no curation is entered, then all curation types are returned.
+The search can also be narrowed down by the type of "curation" the user would like to see, e.g. "articles" or "blogposts". If no curation is entered, then all curation types are returned.
 
 A list is returned by the search. All items in the list are hyperlinked to their location in the FT cms.
 
 The user can move their mouse down the list to see a summary of each item. The details of an item are shown as the mouse hovers over it, e.g. author, published date, short summary.
 Once the mouse is moved on, the details are hidden and the next item's details are revealed.
 
-If there is an error in the api call, this is handled. - but not displaying in error field currently!
+If there is an error in the api call, this is handled. - but not displaying in error field currently (althought this is set up).
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 FULL REQUIREMENT
