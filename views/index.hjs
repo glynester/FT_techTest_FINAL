@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <title>{{ title }}</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+  <div class="jumbotron text-center"></div>
+  <div id = "backgroundImg"></div>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <img id="image1"  src="./images/FT logo.png" width="150px"/>
+    </div>
+    <div class="row"></div>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <section>
+            <h1>Search for Financial Times content:</h1>
+            <button type="button" id = "reset">Clear Search</button>
+            <p class = "error" id = "errorText"></p>
+            <form id="search_form">
+              <input id="search_item" type="text" placeholder="Enter a topic to search for"></input>
+              <select id="curations" >                      <!-- Improvements - make this list dynamically generated.    -->
+                <option value="" selected>Enter a curation</option>
+                <option value="ARTICLES">ARTICLES</option>
+                <option value="BLOGS">BLOGS</option>
+                <option value="PAGES">PAGES</option>
+                <option value="PODCASTS">PODCASTS</option>
+                <option value="VIDEOS">VIDEOS</option>
+              </select>
+              <input type="submit"></input>
+
+            </form>
+
+          </section>
+          <ul class='news_items' id="news-items"></ul>       <!-- Where the retrieved headline will go!!!    -->
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+          <section>
+            <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+            <script src='javascripts/interface.js'></script>
+            <script src='javascripts/FtSearch.js'></script>
+          </section>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+
+    </div>
+  </body>
+  </html>
