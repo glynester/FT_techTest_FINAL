@@ -1,11 +1,11 @@
 # FT_techTest
 
-INSTRUCTIONS 
+## INSTRUCTIONS 
 Go to:
-http://fintimesrfuntimes.herokuapp.com/
+[http://fintimesrfuntimes.herokuapp.com/]
 Note: you must not use https or the api will not work.
 
-DESCRIPTION
+## DESCRIPTION
 This application returns a list of FT headlines by querying the FT Developers API.
 
 A user can make a search for a particular search topic.
