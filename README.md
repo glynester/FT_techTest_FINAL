@@ -19,6 +19,13 @@ Once the mouse is moved on, the details are hidden and the next item's details a
 
 If there is an error in the api call, this is handled. - but not displaying in error field currently (althought this is set up).
 
+## Running Instructions
+Type command to run the server: nodemon bin/www
+Open in browser: http://localhost:3000/
+
+## Technology
+Built using the Express.js (node js) framework with javascript.
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 FULL REQUIREMENT
 Build a news headline aggregator
