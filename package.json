@@ -1,5 +1,6 @@
 {
   "name": "ft-assignment",
+  "description": "Acesses the FT news API",
   "version": "0.0.0",
   "engines": {
     "node": "14.x"
